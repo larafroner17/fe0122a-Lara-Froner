@@ -1,10 +1,10 @@
 /* IMPOSTAZIONI GENERALI */
 
-html            {font-size: 62,5%;}
-header h1       {font-size: 2rem;}
+html            {font-size: 1em;}
+header h1       {font-size: 2em;}
 section         {font-size: 1.1rem;}
 section h2      {font-size: 1.2em;}
-footer          {font-size: 1rem;}   
+footer          {font-size: 1em;}   
 footer address  {font-size: 0.8em;}       
 
 
