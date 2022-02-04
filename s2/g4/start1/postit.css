@@ -1,0 +1,35 @@
+body {
+    font-family: 'indie Flower';
+}
+
+main {
+    width: 1000px;
+    height: 600px;
+    background: grey;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+.postit {
+    width: 300px;
+    height: 250px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.postit:hover {
+    transform: rotate(0);
+}
+
+.postit-giallo {
+    background-color: yellow;
+    transform: rotate(-2deg);
+}
+
+.postit-verde {
+    
+}
