@@ -4,53 +4,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="contatti Epicode">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/all.css">
-  <link rel="stylesheet" href="./assets/css/stile.css">
-  <title>Contatti Epicode</title>  
+  <meta name="description" content="pagina contatti di epicode">
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/stile1.css">
+  <title> Contatti| Epicode School </title>
 </head>
 
 <body>
   <header>
-    <img src="./assets/images/logo.png" alt="logo">
+    <img id="logo" src="./assets/images/logo.png" alt="logo-epicode">
+
+    <input type="checkbox" class="btnMenu" id="btnMenu"></input>
+    <label for="btnMenu" class="icoMenu"><i class="fas fa-ellipsis-h"></i></label>
     <nav>
       <ul>
-        <li><a href="./index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="./chi-siamo.html">Chi siamo</a></li>
-        <li><a href="./contatti.html"></a>Contatti</li>
+        <li><a href="./contatti.html">Contatti</a></li>
+        <li><a class="buttom" href="#">Registrati</a></li>
       </ul>
     </nav>
   </header>
 
-<h1>Contatti</h1>
+  <hr>
+
+  <h1>Contatti</h1>
 
   <main>
+    <article> 
+    <fieldset>
 
-<fieldset>
-<form action="#" method="get"> </form>
-<input type="text" id="nome" name="nome" placeholder="Nome e Cognome"> <br>
+      <form class="flexcontainer" action="iscrizoni.php" method="get">
+        <div> <input type="text" placeholder=" Nome e cognome" name="nominativo"> </div>
+        <div> <input type="email" placeholder=" Indirizzo valido nome@casella.com" name="user_email"> </div>
+        <div> <textarea name="messaggio" cols="20" rows="4" placeholder=" Scrivi in breve il tuo messaggio"></textarea>
+        </div>
+        <a class="button" href="#">Invia il messaggio</a>
+      </form>
+    </fieldset>
 
-<input type="text" id="email" name="email" placeholder="Indirizzo valido nome@casella.com"> <br>
+    <aside>
+      <h2>Sede formativa</h2>
 
-<textarea name="messaggio" id="messaggio" cols="20" rows="3" placeholder="Scrivi il tuo messaggio"></textarea> <br>
+      <p>Via Appia 1 <br>
+        00100 Roma (RM)</p>
 
-<button><a href="#">Invia il messaggio</a></button>
-</fieldset>
+      <p>info@epicode.schol <br>
+        +39 0612345956</p>
 
- 
-<address>
-  <h2>Sede formativa</h2>
-  <p>Via Appia 1 <br> 
-    00100 Roma (RM)</p>
-  <p>Info@epicode.school <br>
-  +39 0612345956</p>
-  <h2>Lavora con noi</h2>
-  <p>Per poterti candidare ad un ruolo da <br>
-  docente invia il tuo cv a job@epicode.school</p>
-</address>
+      <h2> Lavora con noi</h2>
+      <p>Per poterti candidare ad un ruolo da docente invia il tuo cv a
+        job@epicode.school</p>
+    </aside>
+   </article>
   </main>
 
+  <hr>
+
+   
   <footer>
     <section>
 <div>   
@@ -61,7 +74,7 @@
    <div> 
       <h4>Ti piace ciò che vedi? Condividilo con i tuoi amici!</h4>
 
-    <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-instagram"></i>
+    <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-instagram-square"></i>
  </div>
    <div>  
       <h4>Iscriviti alla nostra newsletter</h4>
@@ -69,14 +82,15 @@
   <form action="#" method="get"></form>
   <label for="email"></label>
     <input type="text" id="email" name="email">
-    <button><a href="#">Va bene!</a></button>
+    <a class="buttom2" href="#">Va bene!</a>
   </fieldset>
  </div>
   </section>
 
-  <p>&copy; 2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678
+  <p id="copy" >&copy; 2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678
   </p>
   </footer>
+
 
 </body>
 

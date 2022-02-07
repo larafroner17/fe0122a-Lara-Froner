@@ -7,31 +7,37 @@
   <meta name="description" content="Pagina presentazione">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/all.css">
-  <link rel="stylesheet" href="./assets/css/stile.css">
+  <link rel="stylesheet" href="./assets/css/stile_chi-siamo.css">
   <title>Chi siamo</title>
 </head>
 
 <body>
-<main>
+
   <header>
     <img src="./assets/images/logo.png" alt="logo">
+    <input type="checkbox" class="btnMenu" id="btnMenu">
+    <label for="btnMenu" class="IcoMenu"><i class="fas fa-ellipsis-h"></i></label>
     <nav>
       <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="./chi-siamo.html">Chi siamo</a></li>
-        <li><a href="./contatti.html"></a>Contatti</li>
+        <li><a href="./contatti.html">Contatti</a></li>
+        <li> <a class="buttom" href="#">Registrati</a></li>
       </ul>
     </nav>
   </header>
 
-    <h1>We are coder</h1>
-    <p>Epicose nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.
+<main>
+  <section><h1>We are coder</h1>
+    <p>Epicode nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.
       Vogliamo essere il movimento dei creatori digitali che il mercato richiede: formiamo,
       forniamo e aggiorniamo specialisti con la missione di trasformare le aziende dall'interno
       e offrire ai giovani sicure prospettive di carriera. Siamo a Roma ma arriviamo in
       tutta italia, per creare la community che rivoluzionerà il mondo del lavoro.
-    </p>
-    <section>
+    </p> 
+  </section>
+    
+    <section id="flexcontainer">
       <div>
         <img src="./assets/images/foto1.jpg" alt="foto1">
         <p>Investiamo sul talento e vogliamo dimostrartelo: effettua un colloquio di selezione
@@ -46,19 +52,20 @@
       </div>
     </section>
 
-    <table>
+    <table class="tabella1">
       <caption>Prezzi dei corsi</caption>
-      <tr>
+      <tbody>
+      <tr class="celestino">
         <th>Base 500€</th>
         <td>30 ore di formazione</td>
       </tr>
 
-      <tr>
+      <tr class="celestino" >
         <th>Intermedio 1000€</th>
         <td>Tutte le caratteristiche del corso base</td>
       </tr>
 
-      <tr>
+      <tr class="celestino" >
         <th>Avanzato 2000€</th>
         <td>Tutte le caratteristiche del corso intermedio</td>
       </tr>
@@ -80,41 +87,41 @@
       </tr>
 
 
-      <tr>
+      <tr class="celestino" >
         <th>Base 500€</th>
         <td>Stage aziendale</td>
       </tr>
 
-      <tr>
+      <tr class="celestino">
         <th>Intermedio 1000€</th>
         <td>Ripetizione del corso</td>
       </tr>
 
-      <tr>
+      <tr class="celestino">
         <th>Avanzato 2000€</th>
         <td>Supporto 24h dedicato</td>
       </tr>
-
+</tbody>
 
     </table>
 
 
 
-    <table>
+    <table class="tabella2">
       <caption>Prezzi dei corsi</caption>
 
       <thead>
         <tr>
-          <th>Base 500€ + iva</th>
-          <th>Intermedio 1000€ + iva</th>
-          <th>Avanzato 2000€ + iva</th>
+          <th> <span>Base</span> <br> 500€ + iva</th>
+          <th> <span>Intermedio</span>  <br> 1000€ + iva</th>
+          <th> <span>avanzato</span>  <br> 2000€ + iva</th>
         </tr>
       </thead>
 
     
 
       <tbody>
-        <tr>
+        <tr class="celestino">
           <td>30 ore di formazione</td>
           <td>Tutte le caratteristiche del corso base</td>
           <td>Tutte le caratteristiche del corso intermedi</td>
@@ -126,7 +133,7 @@
           <td>Video registrazioni</td>
         </tr>
 
-        <tr>
+        <tr class="celestino">
           <td>Stage aziendale</td>
           <td>Ripetizione del corso </td>
           <td>Support 24h dedicato</td>
@@ -135,40 +142,38 @@
 
     </table>
 
-<hr>
 
 </main>
 
 
   
 
-  <footer>
-    <section>
-      <div>
-        <h4>Chi siamo</h4>
+<footer>
+  <section>
+<div>   
+<h4>Chi siamo</h4>
 
-        <p>Epicode nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
-      </div>
-      <div>
-        <h4>Ti piace ciò che vedi? Condividilo con i tuoi amici!</h4>
+  <p>Epicode nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
+</div>
+ <div> 
+    <h4>Ti piace ciò che vedi? Condividilo con i tuoi amici!</h4>
 
-        <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-instagram"></i>
-      </div>
-      <div>
-        <h4>Iscriviti alla nostra newsletter</h4>
-        <fieldset>
-          <form action="#" method="get"></form>
-          <label for="email"></label>
-          <input type="text" id="email" name="email">
-          <button><a href="#">Va bene!</a></button>
-        </fieldset>
-      </div>
-    </section>
+  <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-instagram-square"></i>
+</div>
+ <div>  
+    <h4>Iscriviti alla nostra newsletter</h4>
+<fieldset>   
+<form action="#" method="get"></form>
+<label for="email"></label>
+  <input type="text" id="email" name="email">
+  <a class="buttom2" href="#">Va bene!</a>
+</fieldset>
+</div>
+</section>
 
-    <p>&copy; 2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678
-    </p>
-  </footer>
-
+<p>&copy; 2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678
+</p>
+</footer>
 
 
 </body>
