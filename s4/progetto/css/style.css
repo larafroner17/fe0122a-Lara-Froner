@@ -1,0 +1,37 @@
+html {font-family: Poppins, 'Helvetica Neue', sans-serif;}
+
+.titolo {
+    color: rgb(45, 5, 126);
+    font-size: 22pt;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content {
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.tasto {
+    background-color: rgb(63, 167, 199) ;
+    color: white;
+    font-size: 22pt;
+    border: 2px solid rgb(45, 5, 126);
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+.display {
+    background: none;
+    color: rgb(45, 5, 126);
+    font-size: 24pt;
+    border: rgb(45, 5, 126) 2px solid;
+    margin: 4px 2px;
+    width: 204px;
+    height: 40px;            
+}
+.uguale {
+    width: 208px;
+}
